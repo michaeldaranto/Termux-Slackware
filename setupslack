@@ -15,11 +15,12 @@ mkdir -p $HOME/slackware
 cd $HOME/slackware
 echo "Downloading slackware-image."     
 
+#http://slackware.uk/slackwarearm/slackwarearm-devtools/minirootfs/roots/
+
 #SlackwareARM Current
 MINIROOTFS_VERSION=19Dec22
 wget -c ftp://ftp.arm.slackware.com/slackwarearm/slackwarearm-devtools/minirootfs/roots/slackaarch64-current-miniroot_${MINIROOTFS_VERSION}.tar.xz
 proot --link2symlink tar -xvf slackaarch64-current-miniroot_${MINIROOTFS_VERSION}.tar.xz --exclude=dev||:
-
 
 #SlackwareARM 15
 #MINIROOTFS_VERSION=15Feb22
