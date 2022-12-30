@@ -10,6 +10,6 @@ Forked from https://github.com/gwenhael-le-moine/TermuxSlack
 git clone https://github.com/michaeldaranto/Termux-Slackware
 cd Termux-Slackware
 chmod 770 setupslack
-./Termux-Slackware/setupslack
+./setupslack
 
 ```
