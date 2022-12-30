@@ -2,7 +2,7 @@
 # Copyright 2017 (c) all rights reserved
 # by SDRausty https://sdrausty.github.io/termux-arch
 # modified by Gwenhael Le Moine https://github.com/gwenhael-le-moine/TermuxSlack
-# Uglyhack by Michael Daranto 30 Dec 2022
+# Uglyhack by Michael Daranto 30 Dec 2022 https://github.com/michaeldaranto/Termux-Slackware
 
 echo "This setup script will attempt to set Slackware Linux up in your Termux environment."
 echo
