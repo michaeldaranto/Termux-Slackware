@@ -21,10 +21,6 @@ echo "Downloading slackware-image."
 wget -c ftp://ftp.arm.slackware.com/slackwarearm/slackwarearm-devtools/minirootfs/roots/slackaarch64-current-miniroot_*.tar.xz
 proot --link2symlink tar -xvf slackaarch64-current-miniroot_*.tar.xz --exclude=dev||:
 
-#SlackwareARM 15
-#wget -c ftp://ftp.arm.slackware.com/slackwarearm/slackwarearm-devtools/minirootfs/roots/slackarm-15.0-miniroot_*.tar.xz
-#proot --link2symlink tar -xvf slackarm-15.0-miniroot_*.tar.xz --exclude=dev||:
-
 echo "Configuring Slackware"        
 echo
 mv $HOME/slackware/etc/resolv.conf $HOME/slackware/etc/resolv.conf.orig                                                    
