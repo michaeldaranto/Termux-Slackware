@@ -5,6 +5,6 @@ Forked from https://github.com/gwenhael-le-moine/TermuxSlack
 
 ```
 cd && git clone https://github.com/michaeldaranto/Termux-Slackware
-./setupslack
+./Termux-Slackware/setupslack
 
 ```
