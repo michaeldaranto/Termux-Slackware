@@ -13,3 +13,4 @@ chmod 770 setupslack
 ./setupslack
 
 ```
+The script will install SlackwareARM Current. Edit setupslack file & uncomment 15 section for SlackwareARM 15 installation.
