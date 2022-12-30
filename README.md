@@ -7,7 +7,9 @@ Forked from https://github.com/gwenhael-le-moine/TermuxSlack
 
 
 ```
-cd && git clone https://github.com/michaeldaranto/Termux-Slackware
+git clone https://github.com/michaeldaranto/Termux-Slackware
+cd Termux-Slackware
+chmod 770 setupslack
 ./Termux-Slackware/setupslack
 
 ```
